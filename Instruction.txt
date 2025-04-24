@@ -1,0 +1,13 @@
+Merci d'avoir installé Simul'Ville.
+
+Pour y jouer vous devriez installé python, le langage que j'ai utilisé pour programmer le jeu. 
+
+Vous pouvez le lancer sur le cmd ou en double clickant sur SimulVille.py.
+
+Il y a un system de sauvegarde opérationnel et un system pour lancer une sauvegarde.
+
+Merci de ne pas Bidouller les sauvegardes pour ne pas tricher !!!
+
+C'est la version 1 de Simul'Ville, a la version 2 je réglerais le probleme du budget(Il se bloque a zero et ne coupe pas le jeu).
+
+MERCI DE PRENDRE EN COMPTE QUE C'EST UN ENFANT DE 12 ANS QUI LA CREE.
