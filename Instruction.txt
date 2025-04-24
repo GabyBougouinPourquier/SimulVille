@@ -1,4 +1,4 @@
-Merci d'avoir installé Simul'Ville.
+Merci d'avoir installé Simul'Ville, vous pouvez suprimer le "main" a la fin du nom du fichier !!!.
 
 Pour y jouer vous devriez installé python, le langage que j'ai utilisé pour programmer le jeu. 
 
