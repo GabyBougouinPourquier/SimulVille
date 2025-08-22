@@ -81,6 +81,7 @@ class SimulVille:
         if c5 == c1 or c5 == c2 or c5 == c3 or c5 == c4:
             c5 = random.choice(liste)
         return c1, c2, c3, c4, c5
+    
     def sauvegarder(self):
         loop = True
         print("! Avertissement ! le fichier de sauvergarde doit être dans le même dossier racine que celui de SimulVille.py")
@@ -92,7 +93,7 @@ class SimulVille:
                 if r == "oui" or r == "Oui":
                     q = input("Nom du fichier : >>>")
                 else:
-                    q += "\Sauvegarde_SimulVille.txt"
+                    q += "\Sauvegarde_SimulVille.saveville"
                 
                 if not os.path.exists(q):
                     pass
@@ -112,7 +113,7 @@ class SimulVille:
                 
                 c_h = self.competences_habitants*68-self.competences_habitants
                 
-                fichier = open("Sauvegarde_SimulVille.txt", "w+")
+                fichier = open("Sauvegarde_SimulVille.saveville", "w")
                 fichier.write(f"{popu}")
                 fichier.write("   ")
                 fichier.write(f"{budget}")
@@ -133,7 +134,7 @@ class SimulVille:
                 print("Il n'y a pas de fichier de sauvegarde")
             else:
                 
-                with open('Sauvegarde_SimulVille.txt', 'r') as file:
+                with open('Sauvegarde_SimulVille.saveville', 'r') as file:
                     liste_ligne = []
                     for ligne in file:
                         liste_ligne.append(ligne)
